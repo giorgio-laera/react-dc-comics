@@ -3,7 +3,9 @@
 function Main(){
    return(
    <footer>
-        <h3>footer</h3>
+        <div className="boxed felex">
+
+        </div>
     </footer>
     ); 
 }

@@ -48,10 +48,34 @@ align-self: center;
 /*************************************MAIN*********************************/
 main {
   background-color: #1C1C1C;
-
   color: white;
 }
 main > div{
     min-height: 6em;
  align-items: center;
+}
+/***INFO MAIN****/
+.info{
+  background-color: #0C7CEB;
+}
+.container-card{
+  align-items: center;
+  min-height: 6em;
+  justify-content: space-around;
+}
+.marcket-item{
+  
+  align-items: center;
+}
+.img-marcket{
+  width: 2em;
+}
+.text-marcket{
+  margin-left: 1em;
+  font-size: 0.7em;
+}
+/***********************FOOTER**********************************************/
+
+footer{
+  background-image: ;
 }
