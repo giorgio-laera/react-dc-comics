@@ -24,7 +24,7 @@ header a{
   text-decoration: none;
   color: #757575;
   font-size: x-small;
-  margin: 0.5em;
+  margin: 0.8em;
   font-weight: bold;
   padding-bottom: 3.6em;
 }
@@ -77,5 +77,59 @@ main > div{
 /***********************FOOTER**********************************************/
 
 footer{
-  background-image: ;
+  background-image: url(/public/footer-bg.jpg);
+  min-height: 7em;
+}
+.container-footer{
+justify-content: space-between;
+}
+#container-link{
+  padding-top: 2em;
+}
+.titles-footer{
+  color: white;
+  margin-bottom: 0.5em;
+  /* margin-right: 3em; */
+}
+footer a{
+  text-decoration: none;
+  color: gray;
+  font-size: 11px;
+  display: block;
+  margin: 0.25em 0;
+  margin-right: 2em;
+
+}
+#bg-DC{
+  order: 1;
+  width: 35%;
+ background-image: url(/public/dc-logo-bg.png);
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+}
+#footer-down{
+  background-color: #303030;
+  min-height: 5em;
+  align-items: center;
+  /* padding: 1em 0; */
+}
+footer button{
+  background-color: #303030;
+  border: #0C7CEB 2px solid;
+  padding: 0.8em;
+  color: white;
+  font-size: 12px;
+}
+footer p{
+  color: #0C7CEB;
+  padding: 0.8em;
+  font-size: 12px;
+  
+}
+.social{
+width: 2.5em;
+}
+.footer-social{
+justify-content: space-between;
 }
