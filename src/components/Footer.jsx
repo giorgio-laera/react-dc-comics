@@ -1,13 +1,13 @@
-<h3>footer</h3>
+import style from "./Footer.module.css";
 
 function Footer() {
     return (
-        <footer>
-            <div className="boxed d-flex container-footer">
-                <div id="container-link" className="d-flex">
+        <footer className={style.footer}>
+            <div id={style.containerFooter} className="boxed d-flex ">
+                <div id={style.containerLink} className="d-flex">
                     <div>
-                        <div className="titles-footer">DC COMICS</div>
-                        <div className="link-footer ">
+                        <div className={style.titlesFooter}>DC COMICS</div>
+                        <div>
                             <a href="#">Characters</a>
                             <a href="#">Comics</a>
                             <a href="#">Movies</a>
@@ -16,16 +16,16 @@ function Footer() {
                             <a href="#">Videos</a>
                             <a href="#">News</a>
                         </div>
-                        <div className="titles-footer">SHOP</div>
-                        <div className="link-footer ">
+                        <div className={style.titlesFooter}>SHOP</div>
+                        <div>
                             <a href="#">Shop DC</a>
                             <a href="#">Shop DC Collectibles</a>
 
                         </div>
                     </div>
                     <div>
-                        <div className="titles-footer">DC</div>
-                        <div className="link-footer ">
+                        <div className={style.titlesFooter}>DC</div>
+                        <div>
                             <a href="#">Term Of Use</a>
                             <a href="#">Privacy policy(New)</a>
                             <a href="#">Ad Choices</a>
@@ -41,8 +41,8 @@ function Footer() {
 
                     </div>
                     <div>
-                        <div className="titles-footer">SITES</div>
-                        <div className="link-footer ">
+                        <div className={style.titlesFooter}>SITES</div>
+                        <div>
                             <a href="#">DC</a>
                             <a href="#">MAD Magazine</a>
                             <a href="#">DC Kids</a>
@@ -51,14 +51,14 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                {/* Bg DC  */}
-                <div id="bg-DC">
-                    {/* <img src="/dc-logo-bg.png" alt="" /> */}
+               
+                <div id={style.bgDC}>
+                  
 
                 </div>
             </div>
-            <div id="footer-down" className="d-flex">
-                <div className="boxed d-flex footer-social">
+            <div id={style.footerDown} className="d-flex">
+                <div id={style.footerSocial} className="boxed d-flex footerSocial">
                     <div><button>SING-UP NOW!</button></div>
                     <div className="d-flex">
                         <p>FOLLOW US</p>
