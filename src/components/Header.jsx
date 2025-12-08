@@ -1,9 +1,9 @@
-
+import style from "./Header.module.css"
 
 function Header(){
     return(
-        <header >
-            <div className="nav-bar boxed d-flex">
+        <header className={style.header}>
+            <div id={style.navBar} className=" boxed d-flex">
               <img src="/dc-logo.png" alt="logo-dc" />  
               <div>
                 <a href="">CHARACTERS</a>

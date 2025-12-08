@@ -1,22 +1,24 @@
-.footer{
+.footer {
   background-image: url(/public/footer-bg.jpg);
   min-height: 7em;
 }
-#containerFooter{
-justify-content: space-between;
+
+#containerFooter {
+  justify-content: space-between;
 
 }
-#containerLink{
+
+#containerLink {
   padding: 1em 0;
 }
-.titlesFooter{
+
+.titlesFooter {
   color: white;
   margin-bottom: 0.7em;
   margin-top: 1em;
- 
-  /* margin-right: 3em; */
 }
-footer a{
+
+footer a {
   text-decoration: none;
   color: gray;
   font-size: 11px;
@@ -25,37 +27,41 @@ footer a{
   margin-right: 2em;
 
 }
-#bgDC{
+
+#bgDC {
   order: 1;
   width: 35%;
- background-image: url(/public/dc-logo-bg.png);
-    object-fit: contain;
-    background-size: cover;
-    background-position: center;
+  background-image: url(/public/dc-logo-bg.png);
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
 }
-#footerDown{
+
+#footerDown {
   background-color: #303030;
   min-height: 5em;
   align-items: center;
-  
-  /* padding: 1em 0; */
 }
-footer button{
+
+footer button {
   background-color: #303030;
   border: #0C7CEB 2px solid;
   padding: 0.8em;
   color: white;
   font-size: 12px;
 }
-footer p{
+
+footer p {
   color: #0C7CEB;
   padding: 0.8em;
   font-size: 12px;
-  
+
 }
-.social{
-width: 2.5em;
+
+.social {
+  width: 2.5em;
 }
-#footerSocial{
-justify-content: space-between;
+
+#footerSocial {
+  justify-content: space-between;
 }
