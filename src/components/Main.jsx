@@ -4,20 +4,24 @@ import comics from "../comics";
 function Main() {
     return (
         <main className={style.main}>
-            <div className="boxed ">
+            <div className=" ">
                 <div id={style.jumbotron}>
                     <img id={style.ImgJumbo} src="/jumbotron.jpg" alt="" />
                 </div>
                 <div id={style.mainFooter}>
-                    {/* <div className={style.series}> CURRENT SERIES</div> */}
-                    <div className={`d-flex ${style.cardWrapper}`}>
+                    { <div className={style.series}> CURRENT SERIES</div> }
+                    <div className={`d-flex boxed ${style.cardWrapper}`}>
                     {
                         comics.map(object => {
-                            if(object.id ===1 || object.id ===12 ){}
-                            return  <div className={style.card}>
+                            let classSwitch= "";
+                            if(object.id ==1 || object.id ==12 ){
+                                classSwitch=style.imgCardAdd;
+                            }
+                            return  <div key={object.id} className={style.card}>
                                 <div className={style.containerImg}>
-                                    <img className={style.imgCard} src= {object.thumb} alt="" />
+                                    <img className={`${style.imgCard} ${classSwitch}`} src= {object.thumb} alt="" />
                                 </div>
+                                <p className={style.textCard}>{object.series}</p>
                             </div>
 
                         })}
