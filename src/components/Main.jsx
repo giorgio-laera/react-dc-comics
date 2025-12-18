@@ -4,12 +4,13 @@ import comics from "../comics";
 function Main() {
     return (
         <main className={style.main}>
-            <div className=" ">
+            <div>
                 <div id={style.jumbotron}>
                     <img id={style.ImgJumbo} src="/jumbotron.jpg" alt="" />
+                    <div className={style.series}> CURRENT SERIES</div> 
                 </div>
                 <div id={style.mainFooter}>
-                    { <div className={style.series}> CURRENT SERIES</div> }
+                     
                     <div className={`d-flex boxed ${style.cardWrapper}`}>
                     {
                         comics.map(object => {
@@ -26,9 +27,11 @@ function Main() {
 
                         })}
                 </div>
+                <button>LOAD MORE</button>
                 </div>
-
+            
             </div>
+           
             <div className={style.info}>
                 <div id={style.containerCard} className="boxed d-flex">
                     <div className={`d-flex  ${style.marcketItem}`}><span><img className="img-marcket" src="/buy-comics-digital-comics.png" alt="DIGITAL COMICS" /></span>
