@@ -48,35 +48,7 @@ left: 15em;
 top :23em;
 background-color: #0C7CEB;
 }
-.card{
-width: 16%;
-margin-bottom: 2em;
-}
-.cardWrapper{
-  margin-top: 2.5em;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
-  
-}
-.containerImg{
-  width: 9em;
-  height: 9em;
-overflow: hidden;
-}
-.imgCard{
-  width: 100%;
-}
-.imgCardAdd{
-  padding-top:20px;
-  transform: scale(1.6);
-}
-.textCard{
-  margin-top: 1em;
-  font-size: x-small;
-  width: 80%; 
 
-}
 button{
   width: 12em;
   display: block;

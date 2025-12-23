@@ -1,0 +1,24 @@
+
+
+.card{
+width: 16%;
+margin-bottom: 2em;
+}
+.containerImg{
+  width: 9em;
+  height: 9em;
+overflow: hidden;
+}
+.card img{
+  width: 100%;
+}
+.imgCardAdd{
+  padding-top:20px;
+  transform: scale(1.6);
+}
+.Card p{
+  margin-top: 1em;
+  font-size: x-small;
+  width: 80%; 
+
+}

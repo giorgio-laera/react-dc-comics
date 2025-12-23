@@ -1,5 +1,6 @@
 import style from "./Main.module.css";
-import comics from "../comics";
+// import comics from "../comics";
+import DcList from "./DcList.jsx"
 
 function Main() {
     return (
@@ -10,23 +11,8 @@ function Main() {
                     <div className={style.series}> CURRENT SERIES</div> 
                 </div>
                 <div id={style.mainFooter}>
-                     
-                    <div className={`d-flex boxed ${style.cardWrapper}`}>
-                    {
-                        comics.map(object => {
-                            let classSwitch= "";
-                            if(object.id ==1 || object.id ==12 ){
-                                classSwitch=style.imgCardAdd;
-                            }
-                            return  <div key={object.id} className={style.card}>
-                                <div className={style.containerImg}>
-                                    <img className={`${style.imgCard} ${classSwitch}`} src= {object.thumb} alt="" />
-                                </div>
-                                <p className={style.textCard}>{object.series}</p>
-                            </div>
-
-                        })}
-                </div>
+                     <DcList/>
+                  
                 <button>LOAD MORE</button>
                 </div>
             
