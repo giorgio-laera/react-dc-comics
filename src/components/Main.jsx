@@ -1,5 +1,4 @@
 import style from "./Main.module.css";
-// import comics from "../comics";
 import DcList from "./DcList.jsx"
 
 function Main() {

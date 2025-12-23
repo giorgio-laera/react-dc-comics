@@ -1,27 +1,23 @@
 import style from "./Header.module.css"
+import links from "../data/LinksNavbar.js"
+function Header() {
+  return (
+    <header className={style.header}>
+      <div id={style.navBar} className=" boxed d-flex">
+        <img src="/dc-logo.png" alt="logo-dc" />
+        <ul>{
 
-function Header(){
-    return(
-        <header className={style.header}>
-            <div id={style.navBar} className=" boxed d-flex">
-              <img src="/dc-logo.png" alt="logo-dc" />  
-              <div>
-                <a href="">CHARACTERS</a>
-                <a href="">COMICS</a>
-                <a href="">MOVIES</a>
-                <a href="">TV</a>
-                <a href="">GAMES</a>
-                <a href="">COLLECTIBLES</a>
-                <a href="">VIDEOS</a>
-                <a href="">FANS</a>
-                <a href="">NEWS</a>
-                <a href="">SHOP</a>
-              </div>
+          links.map((link,i) => {
 
-            </div>
-            
+            return <li><a key={i} href={link.url}>{link.text}</a></li>
+          })}
 
-        </header>
-    );
+        </ul>
+
+      </div>
+
+
+    </header>
+  );
 }
 export default Header;

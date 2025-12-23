@@ -1,5 +1,5 @@
 import style from "./DcList.module.css";
-import comics from "../comics.js";
+import comics from "../data/comics.js";
 import Card from "./Card.jsx";
 
 function dcList() {

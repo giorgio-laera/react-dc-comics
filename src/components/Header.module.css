@@ -2,7 +2,11 @@
   margin-top: 2em; 
  margin-bottom: 1em;
 }
-.header a{
+.header ul{
+  list-style: none;
+  display: flex;
+}
+ .header a{
   text-decoration: none;
   color: #757575;
   font-size: x-small;
@@ -14,7 +18,7 @@
   
   color: #0C7CEB;
   border-bottom: 4px solid #0C7CEB;
-}
+} 
 #navBar{
   align-items: center;
 justify-content: space-between;
